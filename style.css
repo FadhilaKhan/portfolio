@@ -272,4 +272,10 @@ span{
 
 .skills-column .title{
     font-size: 2.5rem;
+    margin: 0 0 1.5rem;
+}
+
+.skills-box .skills-content{
+    position: relative;
+    border: .2rem solid var(--main-color);
 }
