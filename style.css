@@ -267,5 +267,9 @@ span{
 }
 
 .skills-row .skills-column{
+    flex: 1 1 40rem;
+}
 
+.skills-column .title{
+    font-size: 2.5rem;
 }
