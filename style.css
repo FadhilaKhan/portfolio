@@ -330,3 +330,15 @@ span{
 .skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span{
     width: 35%;
 }
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span{
+    width: 25%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(7) .bar span{
+    width: 45%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span{
+    width: 35%;
+}
