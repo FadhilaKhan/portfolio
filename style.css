@@ -359,18 +359,21 @@ span{
     width: 55%;
 }
 
+.projects .heading{
+        min-height: auto;
+        padding-top: 7rem;
+}
 .cardlist {
     min-height: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     padding: 2rem;
-    background: var(--second-bg-color);
+    background: var(--bg--color);
     border-radius: 1rem;
 }
 
 .card {
-    min-height: auto;
     background: var(--second-bg-color);
     border: 1px solid var(--main-color);
     border-radius: 1rem;
