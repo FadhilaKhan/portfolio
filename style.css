@@ -47,6 +47,10 @@ section{
     z-index: 100;
 }
 
+.header.sticky{
+    border-bottom: .1rem solid rgba(0, 0, 0, 0.2);
+}
+
 .logo{
     font-size: 2.5rem;
     color: var(--text-color);
@@ -462,7 +466,7 @@ span{
         display: none;
     }
 
-    .navbar .active{
+    .navbar.active{
         display: block;
     }
 
@@ -471,4 +475,23 @@ span{
         font-size: 2rem;
         margin: 3rem 0;
     }
+
+    .home{
+        flex-direction: column;
+    }
+
+    .home-content h3{
+        font-size: 2.6rem;
+    }
+
+    .home-content h1{
+        font-size: 5rem;
+    }
+
+    .home-img img{
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .about
 }

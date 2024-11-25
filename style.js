@@ -25,4 +25,13 @@ window.onscroll = () => {
 
         }
     }); 
+
+    /*=sticky nvabar=*/
+    let header = document.querySelector('header');
+
+    header.classList.toggle('sticky', window.scrollY > 100);
+
+    /*=remove toggle and navbar when you click it=*/
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
 };
