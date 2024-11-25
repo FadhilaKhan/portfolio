@@ -500,5 +500,6 @@ span{
     .about-img{
         width: 70vw;
         margin-top: 4rem;
+        margin-bottom: 4rem;
     }
 }
